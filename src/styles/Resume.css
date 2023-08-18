@@ -1,0 +1,88 @@
+.resume {
+    position: sticky;
+    top: 40px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1414px;
+    width: 1000px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 0.9rem;
+    padding: 0;
+    text-align: center;
+}
+
+.resume h2 {
+    margin-top: 2rem;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #3d1585;
+    border-bottom: 2px solid #3d1585;
+}
+
+.personal-section {
+    background-color: #545454;
+    color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal-section img {
+    width:30px;
+    height:30px;
+    margin-right: 0.2rem;
+}
+.personal-section__contact {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.personal-section__contact h3 {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+}
+
+.study-section__right h3,.study-section__right p,.study-section__left p {
+    margin: 0;
+    padding: 0;
+}
+.study-section__right p {
+    font-style: italic;
+}
+
+.experience-section,.study-section {
+    display: flex;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.experience-section__left,.study-section__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+.experience-section__right,.study-section__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+}
+.experience-section__right h3,.experience-section__left p,.experience-section__right p,.experience-section__right h4
+{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.experience-section__right h4 {
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
+.experience-section__right p {
+    text-align: left;
+}

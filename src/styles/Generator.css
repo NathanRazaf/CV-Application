@@ -1,0 +1,75 @@
+.generator {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 40%;
+    background-color: #6d28d9;
+}
+
+.form-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: #f0abfc;
+    width: 100%;
+    border-bottom: 2px solid #f0abfc;
+    margin-bottom: 1rem;
+}
+.form-top h2 {
+    margin: 0.5rem;
+}
+.form-top button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 0.5rem;
+}
+.form-top button:hover, .form-top button:focus {
+    outline: none;
+}
+.form-top button img {
+    transform: rotate(180deg);
+    width: 30px;
+    height: 30px;
+}
+
+
+.generator .date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.generator form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.generator::-webkit-scrollbar {
+    width: 10px;
+}
+
+.generator::-webkit-scrollbar-track {
+    background-color: #f4f4f4;
+    border-radius: 20px;
+}
+
+.generator::-webkit-scrollbar-thumb {
+    background-color: rgba(105, 110, 210, 0.46);  /* Same as your generator's background-color. */
+    border-radius: 10px;
+}
+
+.generator::-webkit-scrollbar-thumb:hover {
+    background-color: #f0abfc; /* Lighter color on hover. */
+}
+
+/* For Firefox (from version 64) */
+.generator {
+    scrollbar-width: thin;
+    scrollbar-color: #6d28d9 #f4f4f4; /* thumb and track color */
+}
